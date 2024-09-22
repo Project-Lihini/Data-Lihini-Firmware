@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "time.h": "c",
+        "mqtt_conn.h": "c",
+        "esp_common.h": "c",
+        "sys.h": "c",
+        "mqttesp8266.h": "c",
+        "esp_system.h": "c",
+        "netdb.h": "c",
+        "queue.h": "c",
+        "freertos.h": "c",
+        "portmacro.h": "c",
+        "acetimec.h": "c",
+        "esp_wifi.h": "c",
+        "app_conf.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "/home/asanka/.platformio/packages/toolchain-xtensa@1.40802.0/bin/xtensa-lx106-elf-gcc"
+}

@@ -1,0 +1,72 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/include",
+                "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/src",
+                "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/lib/wifi_conn",
+                "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/lib/mqtt_conn",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/espressif",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv4",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv6",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/nopoll",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/spiffs",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/ssl",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/json",
+                "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/openssl",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/include",
+                    "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/src",
+                    "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/lib/wifi_conn",
+                    "/home/asanka/Documents/Repositories/Data-Lihini-Firmware/lib/mqtt_conn",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/extra_include",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/driver_lib/include",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/espressif",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv4",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/lwip/ipv6",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/nopoll",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/spiffs",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/ssl",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/json",
+                    "/home/asanka/.platformio/packages/framework-esp8266-rtos-sdk/include/openssl",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60115",
+                "ESP8266",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_ESP8266_ESP12",
+                "F_CPU=80000000L",
+                "__ets__",
+                "ICACHE_FLASH",
+                ""
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/asanka/.platformio/packages/toolchain-xtensa@1.40802.0/bin/xtensa-lx106-elf-gcc",
+            "compilerArgs": [
+                "-mlongcalls",
+                "-mtext-section-literals",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
