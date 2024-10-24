@@ -52,7 +52,6 @@ Mkfile.old
 dkms.conf
 
 # VS Code
-.pio
-.vscode/.browse.c_cpp.db*
-.vscode/launch.json
-.vscode/ipch
+.pio/
+.vscode/
+*.code-workspace
